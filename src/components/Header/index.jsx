@@ -1,11 +1,21 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-import './header.scss'
+import './header.scss';
 
 export default function Header() {
   return (
-    <div>
-      
-    </div>
-  )
+    <nav>
+      <ul>
+        <li>
+          <NavLink exact to="/">
+            Produtos
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/contato">Contato</NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
 }
