@@ -1,0 +1,29 @@
+section {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  img {
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+  }
+
+  & ul {
+    padding: 0px;
+    list-style: none;
+
+    & li {
+      margin-bottom: 0.8rem;
+
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 2px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
