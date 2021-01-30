@@ -1,6 +1,36 @@
-#app{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-  & main{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body,
+input,
+button,
+textarea {
+  font: 600 18px Roboto, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+#app {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  & main {
+    height: 90%;
+    margin: 10px auto !important;
+    border-radius: 5px;
+    background: #eee;
+    margin: auto;
+    width: 800px;
+    box-shadow: 10px 10px 1em gray;
   }
 }

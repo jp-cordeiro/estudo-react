@@ -11,16 +11,16 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <div id="app">
-      <main>
-        <BrowserRouter>
-          <Header />
+      <BrowserRouter>
+        <Header />
+        <main>
           <Switch>
             <Route path="/" component={Products}></Route>
             <Route path="/contato" component={Contact}></Route>
           </Switch>
-          <Footer />
-        </BrowserRouter>
-      </main>
+        </main>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
