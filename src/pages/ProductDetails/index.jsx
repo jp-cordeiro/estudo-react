@@ -54,11 +54,12 @@ export default function ProductDetails() {
               <span>R$ {product.preco}</span>
               <p>{product.descricao}</p>
             </div>
+
+            <div id="buttons">
+              <Link to="/">Voltar</Link>
+            </div>
           </>
         )}
-        <div id="buttons">
-          <Link to="/">Voltar</Link>
-        </div>
       </div>
     </section>
   );
