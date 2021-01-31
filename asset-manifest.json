@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/estudo-react/static/css/main.b365914a.chunk.css",
-    "main.js": "/estudo-react/static/js/main.18f14892.chunk.js",
-    "main.js.map": "/estudo-react/static/js/main.18f14892.chunk.js.map",
+    "main.css": "/estudo-react/static/css/main.27bc7487.chunk.css",
+    "main.js": "/estudo-react/static/js/main.4ec4c2f3.chunk.js",
+    "main.js.map": "/estudo-react/static/js/main.4ec4c2f3.chunk.js.map",
     "runtime-main.js": "/estudo-react/static/js/runtime-main.d16f2034.js",
     "runtime-main.js.map": "/estudo-react/static/js/runtime-main.d16f2034.js.map",
     "static/js/2.61b497d2.chunk.js": "/estudo-react/static/js/2.61b497d2.chunk.js",
     "static/js/2.61b497d2.chunk.js.map": "/estudo-react/static/js/2.61b497d2.chunk.js.map",
     "index.html": "/estudo-react/index.html",
-    "static/css/main.b365914a.chunk.css.map": "/estudo-react/static/css/main.b365914a.chunk.css.map",
+    "static/css/main.27bc7487.chunk.css.map": "/estudo-react/static/css/main.27bc7487.chunk.css.map",
     "static/js/2.61b497d2.chunk.js.LICENSE.txt": "/estudo-react/static/js/2.61b497d2.chunk.js.LICENSE.txt",
     "static/media/contato.1bd9bf2d.jpg": "/estudo-react/static/media/contato.1bd9bf2d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d16f2034.js",
     "static/js/2.61b497d2.chunk.js",
-    "static/css/main.b365914a.chunk.css",
-    "static/js/main.18f14892.chunk.js"
+    "static/css/main.27bc7487.chunk.css",
+    "static/js/main.4ec4c2f3.chunk.js"
   ]
 }
