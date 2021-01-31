@@ -40,7 +40,7 @@ export default function ProductDetails() {
           </p>
         )}
         {product && (
-          <div>
+          <>
             <Head title={product.nome} />
 
             <div id="images-list">
@@ -54,12 +54,11 @@ export default function ProductDetails() {
               <span>R$ {product.preco}</span>
               <p>{product.descricao}</p>
             </div>
-          </div>
+          </>
         )}
-      </div>
-
-      <div id="buttons">
-        <Link to="/">Voltar</Link>
+        <div id="buttons">
+          <Link to="/">Voltar</Link>
+        </div>
       </div>
     </section>
   );
