@@ -5,6 +5,7 @@
   align-items: center;
 
   & #content {
+    flex: 1;
     display: flex;
     height: 90%;
     flex-direction: row;
