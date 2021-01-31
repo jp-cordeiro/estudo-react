@@ -1,0 +1,41 @@
+#products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  #products-list {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+    @media (max-width: 700px) {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(99, 59, 199);
+      transition: 0.5s ease;
+
+      & img {
+        height: 200px;
+        width: 150px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        transition: 0.5s ease;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+
+        & img {
+          box-shadow: 10px 10px 1rem gray;
+        }
+      }
+    }
+  }
+}
