@@ -12,7 +12,7 @@ import ProductDetails from './pages/ProductDetails';
 function App() {
   return (
     <div id="app">
-      <BrowserRouter>
+      <BrowserRouter basename="/estudo-react/">
         <Header />
         <main>
           <Switch>
