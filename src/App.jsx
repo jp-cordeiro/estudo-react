@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 
 import Products from './pages/Products';
 import Contact from './pages/Contact';
+import ProductDetails from './pages/ProductDetails';
 
 function App() {
   return (
@@ -16,11 +17,12 @@ function App() {
         <main>
           <Switch>
             <Route exact path="/" component={Products}></Route>
+            <Route path="/produtos/:id" component={ProductDetails}></Route>
             <Route path="/contato" component={Contact}></Route>
           </Switch>
         </main>
-        <Footer />
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

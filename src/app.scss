@@ -23,15 +23,30 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: calc(100vh + 10rem);
   & main {
-    height: 90%;
-    margin: 10px auto !important;
-    border-radius: 5px;
-    background: #eee;
-    margin: auto;
-    width: 800px;
-    box-shadow: 10px 10px 1em gray;
+    flex: 1;
+    display: flex;
+    & section {
+      height: 90vh;
+      margin: 0 auto !important;
+      border-radius: 5px;
+      background: #eee;
+      margin: auto;
+      width: 800px;
+      box-shadow: 10px 10px 1em gray;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  #app {
+    & main {
+      & section {
+        overflow: scroll;
+        width: 400px;
+      }
+    }
   }
 }
 
@@ -45,5 +60,11 @@ a {
   to {
     transform: initial;
     opacity: initial;
+  }
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
   }
 }
