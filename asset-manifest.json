@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/estudos-react/static/css/main.b365914a.chunk.css",
+    "main.js": "/estudos-react/static/js/main.5850c233.chunk.js",
+    "main.js.map": "/estudos-react/static/js/main.5850c233.chunk.js.map",
+    "runtime-main.js": "/estudos-react/static/js/runtime-main.f96b5b5e.js",
+    "runtime-main.js.map": "/estudos-react/static/js/runtime-main.f96b5b5e.js.map",
+    "static/js/2.61b497d2.chunk.js": "/estudos-react/static/js/2.61b497d2.chunk.js",
+    "static/js/2.61b497d2.chunk.js.map": "/estudos-react/static/js/2.61b497d2.chunk.js.map",
+    "index.html": "/estudos-react/index.html",
+    "static/css/main.b365914a.chunk.css.map": "/estudos-react/static/css/main.b365914a.chunk.css.map",
+    "static/js/2.61b497d2.chunk.js.LICENSE.txt": "/estudos-react/static/js/2.61b497d2.chunk.js.LICENSE.txt",
+    "static/media/contato.1bd9bf2d.jpg": "/estudos-react/static/media/contato.1bd9bf2d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f96b5b5e.js",
+    "static/js/2.61b497d2.chunk.js",
+    "static/css/main.b365914a.chunk.css",
+    "static/js/main.5850c233.chunk.js"
+  ]
+}
