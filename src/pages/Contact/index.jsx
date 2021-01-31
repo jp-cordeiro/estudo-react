@@ -7,8 +7,8 @@ import './contact.scss';
 
 export default function Contact() {
   return (
-    <section className='anime-left'>
-      <Head title='Ranek | Contato'/>
+    <section id='contact' className='anime-left'>
+      <Head title='Contato'/>
       <img src={image} alt="Máquina de escrever" />
       <div>
         <h1>Entre em contato</h1>
